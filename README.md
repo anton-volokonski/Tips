@@ -14,7 +14,7 @@ git status
 git fetch
 git branch
 git checkout fix1
-git checkout master
+git checkout -b fix2
 
 # ---
 

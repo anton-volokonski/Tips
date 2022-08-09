@@ -24,3 +24,4 @@ git pull origin fix1
 
 # ---
 
+check

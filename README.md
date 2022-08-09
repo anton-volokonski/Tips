@@ -25,3 +25,7 @@ git pull origin fix1
 # ---
 
 new great text 
+
+# !!!!!
+
+git pull origin master

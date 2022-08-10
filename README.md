@@ -1,6 +1,6 @@
 # Git cheatsheet
 
-## Git is just the control version system, so, relax, yo ;)
+## Git is just a control version system, *so, relax, yo* ;)
 
 ### How to setup SSH
 
@@ -33,9 +33,9 @@ git pull origin master
 `
 
 ### More commands for further neeeds
-* git fetch
-* +cherrypick 
-* +init
+* fetch + merge
+* cherrypick 
+* init
 
 ## Terminal tweaks:
 

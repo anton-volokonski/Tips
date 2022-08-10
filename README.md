@@ -28,7 +28,7 @@ git checkout -b fix2
 ```
 
 ### Don't forget to update master branch daily 
-**Dayly**, Man: `git pull origin master`
+**Daily**, man: `git pull origin master`
 
 ### More commands for further neeeds
 * fetch + merge

@@ -1,10 +1,19 @@
-# git - control version system
+# Git cheatsheet
 
-# https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+## Git is just the control version system, so, relax, yo ;)
 
+## How to setup SSH
+
+Find more info here:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+## How clone and check repository
+
+'
 git add -A
 git commit -m 'add comment text'
 git push origin master
+'
 
 # ---
 

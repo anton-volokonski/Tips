@@ -1,15 +1,14 @@
 # Git cheatsheet
 
-## Git is just a control version system, *so, relax, yo* ;)
+## It's just a control version system, *so, relax, yo* ;)
 
 ### How to setup SSH
-
 > Find more info here:
 > https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 ### How clone and check repository
 ```
-git clone *your_repo*
+git clone *your_repo_link*
 git status
 git branch
 ```

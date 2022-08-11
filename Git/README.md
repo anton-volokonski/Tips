@@ -6,7 +6,7 @@
 > Find more info here:
 > https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
-### How clone and check repository
+### How to clone and check repository
 ```
 git clone *your_repo_link*
 git status

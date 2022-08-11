@@ -11,6 +11,7 @@
 git clone *your_repo_link*
 git status
 git branch
+git log
 ```
 
 ### To upload, save on local stage env, commit & push

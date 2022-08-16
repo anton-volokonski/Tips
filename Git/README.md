@@ -40,4 +40,6 @@ git checkout -b fix2
 1. https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/
 1. https://stackoverflow.com/questions/40895725/how-to-exit-the-insert-screen-in-mac-terminal
 
+## [Gitignore](https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder)
+
 # See ya!

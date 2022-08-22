@@ -12,3 +12,5 @@ npm init
 
 OR create Package.json with default data:  
 `npm init --yes`
+
+> checkout `npm run runTest` then ;)

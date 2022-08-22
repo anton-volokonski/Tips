@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node VanillaJS/test.js"
+    "runTest": "node VanillaJS/test.js"
   },
   "repository": {
     "type": "git",

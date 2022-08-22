@@ -1,6 +1,6 @@
 # Common cheatsheet
 
-## Package.json
+## Create Package.json
 
 ```
 npm set init-author-email "example-user@example.com"
@@ -10,5 +10,5 @@ npm set init-license "MIT"
 npm init
 ```
 
-or Package.json with defauld data:  
+OR create Package.json with default data:  
 `npm init --yes`

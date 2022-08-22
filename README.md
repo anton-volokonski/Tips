@@ -15,5 +15,5 @@ npm set init-license "MIT"
 ```
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    **"runTest": "node VanillaJS/test.js"**
+    *"runTest": "node VanillaJS/test.js"*
 ```

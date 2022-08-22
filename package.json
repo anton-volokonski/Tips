@@ -17,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/anton-volokonski/Tips/issues"
   },
-  "homepage": "https://github.com/anton-volokonski/Tips#readme"
+  "homepage": "https://github.com/anton-volokonski/Tips#readme",
+  "devDependencies": {
+  }
 }

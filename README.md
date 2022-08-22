@@ -13,4 +13,6 @@ npm init
 OR create Package.json with default data:  
 `npm init --yes`
 
-> checkout `npm run runTest` then ;)
+> checkout `npm run runTest` then ;)  
+  
+> try `npm install`, if you have some *devDependencies*

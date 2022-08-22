@@ -1,0 +1,20 @@
+{
+  "name": "tips",
+  "version": "1.0.0",
+  "description": "Cheatsheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-volokonski/Tips.git"
+  },
+  "keywords": [],
+  "author": "Anton Volokonski <anton.volo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anton-volokonski/Tips/issues"
+  },
+  "homepage": "https://github.com/anton-volokonski/Tips#readme"
+}

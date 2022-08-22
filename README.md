@@ -16,4 +16,5 @@ npm set init-license "MIT"
   "scripts": {
     ...
     "runTest": "node VanillaJS/test.js"
+  }
 ```

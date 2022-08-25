@@ -13,5 +13,33 @@ function century(year) {
     }
   }
 
+function numberToString(num) {
+    return num.toString()
+}
 
-console.log(century(2001))
+const stringToNumber = function(str){
+    return Number(str)
+}
+
+function toBinary(n){
+    return (n).toString(2);
+}
+
+
+
+function evenOrOdd(number, callBack) {
+    callBack()
+    if (Number.isInteger(number / 2)) {
+        return console.log("Even")
+    } else {
+        return "Odd"
+    }
+}
+
+function callbackFunction() {
+    console.log('it\'s callback bitch')
+}
+
+const forPrint = evenOrOdd(-8, function(){
+    console.log('nuo mas function')
+})

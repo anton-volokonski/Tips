@@ -59,6 +59,7 @@ sum(1, 2, logger)
 // arrow func:
 
 const arrowFunc = (someData, logger) => logger(someData)
+
 arrowFunc('Nike', logger)
 
 // arguments:
@@ -66,6 +67,7 @@ arrowFunc('Nike', logger)
 function aLotOfParametres(a, b, c, d, e) {
     console.log(arguments)
 }
+
 aLotOfParametres(1,2,3,4,5)
 
 // constructors:
@@ -82,3 +84,5 @@ const studentBob = new Student('Bob', 62)
 
 studentPeter.getData()
 studentBob.getData()
+
+//

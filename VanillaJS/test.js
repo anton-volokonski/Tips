@@ -1,4 +1,6 @@
 
+// codewars:
+
 function century(year) {
   
     const closeToCentury = parseInt(year / 100)
@@ -25,10 +27,7 @@ function toBinary(n){
     return (n).toString(2);
 }
 
-
-
-function evenOrOdd(number, callBack) {
-    callBack()
+function evenOrOdd(number) {
     if (Number.isInteger(number / 2)) {
         return console.log("Even")
     } else {
@@ -36,10 +35,50 @@ function evenOrOdd(number, callBack) {
     }
 }
 
-function callbackFunction() {
-    console.log('it\'s callback bitch')
+// func exec:
+
+(function () {
+    console.log( "Now" )
+})();
+
+// callback func:
+
+const logger = function(data) {
+    console.log(data, new Date())
 }
 
-const forPrint = evenOrOdd(-8, function(){
-    console.log('nuo mas function')
-})
+const sum = function (a, b, logger) {
+    logger({a, b})
+    const result = a + b
+    logger(result)
+    return result
+}
+
+sum(1, 2, logger)
+
+// arrow func:
+
+const arrowFunc = (someData, logger) => logger(someData)
+arrowFunc('Nike', logger)
+
+// arguments:
+
+function aLotOfParametres(a, b, c, d, e) {
+    console.log(arguments)
+}
+aLotOfParametres(1,2,3,4,5)
+
+// constructors:
+
+const Student = function(name, age) {
+    this.name = name
+    this.age = age
+    // console.log(this)
+    this.getData = () => console.log(this.name, this.age)
+}
+
+const studentPeter = new Student('Peter', 22)
+const studentBob = new Student('Bob', 62)
+
+studentPeter.getData()
+studentBob.getData()

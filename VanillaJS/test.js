@@ -47,10 +47,10 @@ const logger = function(data) {
     console.log(data, new Date())
 }
 
-const sum = function (a, b, logger) {
-    logger({a, b})
+const sum = function (a, b, callback) {
+    callback({a, b})
     const result = a + b
-    logger(result)
+    callback(result)
     return result
 }
 

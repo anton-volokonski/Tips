@@ -56,6 +56,22 @@ const sum = function (a, b, callback) {
 
 sum(1, 2, logger)
 
+// callback func2:
+
+const callPolice = (input) => {
+    console.log('Call 911:', input)
+}
+
+const alarm = (thiefs, callback) => {
+    if (!thiefs) {
+        return;
+    }
+
+    callback(thiefs)
+}
+
+alarm(3, callPolice)
+
 // arrow func:
 
 const arrowFunc = (someData, logger) => logger(someData)

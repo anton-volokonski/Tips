@@ -1,0 +1,29 @@
+
+
+Options +SymLinksIfOwnerMatch
+
+
+# SEO URL Settings
+RewriteEngine On
+
+ErrorDocument 403 https://italic.com.ua/
+ErrorDocument 404 https://italic.com.ua/ 
+ErrorDocument 500 https://italic.com.ua/
+
+Redirect permanent /webalizer    https://italic.com.ua
+
+Options -Indexes
+
+# Prevent Direct Access to files
+<FilesMatch "(?i)((\.tpl|.twig|\.ini|\.log|(?<!robots)\.txt))">
+ Require all denied
+## For apache 2.2 and older, replace "Require all denied" with these two lines :
+# Order deny,allow
+# Deny from all
+</FilesMatch>
+
+# Конкатенация http и www в https
+# NE to not escape special characters
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://italic.com.ua%{REQUEST_URI} [L,NE,R=301]
